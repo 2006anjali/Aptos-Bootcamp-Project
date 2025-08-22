@@ -1,0 +1,15 @@
+[package]
+name = "Cross-borderLicenseRecognition"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule ="0x613c3bfd26915d155f83821639f9fe33b65f28d7a4e9ca52bdebac6a4d413289"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
